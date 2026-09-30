@@ -1,0 +1,25 @@
+# Data & databases (never commit these)
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+data/
+production_models/
+network_data_gaps.csv
+*.html
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
